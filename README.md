@@ -1,4 +1,4 @@
-# 🏎️ Projeto: Knowledge Engine 🏁
+# 🏎️ Projeto: Knowledge Engine 🏎️
 
 <div align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
@@ -97,3 +97,6 @@ Esta é uma consulta de agregação, em que é feita uma listagem completa de pi
    - Acesse o site do [SWISH Prolog](https://swish.swi-prolog.org/).
    - Crie um novo "Program" e cole todo o conteúdo do arquivo `.pl` gerado no lado esquerdo da tela.
    - Use a janela interativa no canto inferior direito para digitar suas consultas e analisar a base de dados F1!
+
+
+**🏁 FEITO POR: TOMAZ SANTOS ALMEIDA 🏁**
