@@ -98,5 +98,6 @@ Esta é uma consulta de agregação, em que é feita uma listagem completa de pi
    - Crie um novo "Program" e cole todo o conteúdo do arquivo `.pl` gerado no lado esquerdo da tela.
    - Use a janela interativa no canto inferior direito para digitar suas consultas e analisar a base de dados F1!
 
-
-**🏁 FEITO POR: TOMAZ SANTOS ALMEIDA 🏁**
+<p align="center">
+  <b>🏁 FEITO POR: TOMAZ SANTOS ALMEIDA 🏁</b>
+</p>
