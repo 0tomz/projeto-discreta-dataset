@@ -1,4 +1,4 @@
-# 🏎️ F1 Knowledge Engine: Base de Conhecimento em Prolog
+# 🏎️ F1 Projeto: Knowledge Engine 🏁
 
 <div align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
@@ -11,10 +11,14 @@
 ## 📖 Sobre o Projeto
 Este projeto foi desenvolvido como trabalho prático da disciplina de Matemática Discreta. O objetivo principal foi criar uma base de conhecimento estruturada em **Prolog** a partir de um dataset do Kaggle (["F1 World Championship 1950-2022"](https://www.kaggle.com/)), e então realizar consultas (queries) utilizando lógica para extrair informações relevantes e curiosidades sobre os pilotos de Fórmula 1.
 
-O fluxo do projeto foi dividido em três etapas principais:
-1. **Compreensão & Planejamento:** Estudo dos conceitos de lógica em Prolog, uso do ambiente SWISH, e compreensão da estrutura de um dataset real.
-2. **ETL (Extract, Transform, Load):** Desenvolvimento de um script em Python (`F1/f1.py`) para limpar, formatar e converter os dados brutos em uma base de fatos unificada.
-3. **Análise de Dados:** Elaboração de queries lógicas para obter respostas diretas e precisas a perguntas específicas de negócio a partir da base gerada.
+**Relatório de Desenvolvimento:**
+- Primeiramente, li o arquivo de orientações pra aprender a utilizar a linguagem prolog, o SWISH e entender o que era um dataset e como utilizá-lo.
+- Depois disso, fui testando o exemplo do dataset do arquivo de orientações (partidas), também para entender o funcionamento de todo o processo.
+- Logo depois, fui ao site do Kaggle e baixei um dataset de algo que eu gosto: Fórmula 1. O dataset se chama F1 World Championship 1950-2022.
+- Depois disso, analisei como o dataset era organizado (piloto, nacionalidade, se está ativo, corridas disputadas, vitórias, pódios, pontos).
+- Após isso, elaborei 3 perguntas de análise.
+- Depois, criei um script Python para converter e mandar o dataset pro site do SWISH e procurei responder as perguntas usando o Prolog.
+- Por fim, consegui responder as perguntas usando as querys, e salvei as respostas em imagens.
 
 ---
 
@@ -24,17 +28,6 @@ O script em Python seleciona, higieniza (removendo acentos e espaços) e exporta
 ```prolog
 piloto(nome, nacionalidade, ativo, corridas_disputadas, vitorias, podios, pontos).
 ```
-
-**Dicionário de Dados:**
-- `Driver`: Nome do piloto (ex: `ayrton_senna`).
-- `Nationality`: Nacionalidade (ex: `brazilian`).
-- `Active`: Status de atividade do piloto até 2022 (`true`/`false`).
-- `Race_Starts`: Quantidade total de corridas iniciadas.
-- `Race_Wins`: Total de vitórias na carreira.
-- `Podiums`: Total de pódios conquistados na carreira.
-- `Points`: Total absoluto de pontos marcados.
-
----
 
 ## ❓ Perguntas e Resultados das Análises
 
@@ -104,8 +97,3 @@ Esta é uma consulta de agregação, em que é feita uma listagem completa de pi
    - Acesse o site do [SWISH Prolog](https://swish.swi-prolog.org/).
    - Crie um novo "Program" e cole todo o conteúdo do arquivo `.pl` gerado no lado esquerdo da tela.
    - Use a janela interativa no canto inferior direito para digitar suas consultas e analisar a base de dados F1!
-
----
-<p align="center">
-  <b>Desenvolvido com dedicação para o curso de Matemática Discreta. 🏁</b>
-</p>
